@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linzywd"
+        style="@style/toplin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivbackhuifu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/zywd"
+            style="@style/toptext"
+            android:text="@string/answer" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:id="@+id/lintype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linzywd"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvQUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="#763446"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvQTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:textColor="#666"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:id="@+id/linQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@id/lintype"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvQContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivQPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linzyreply"
+        android:layout_marginBottom="0dp"        
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+ ><Button 
+            android:id="@+id/btncancelSendReply"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:id="@+id/edtreply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+        <Button 
+            android:id="@+id/btnSendReply"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/send"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

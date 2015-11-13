@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linzywdadd"
+        style="@style/toplin" >
+
+        <ImageView
+            android:id="@+id/ivbackzywd1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/zywd"
+            style="@style/toptext"
+            android:text="@string/addQuestion" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivsendzywd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/send" />
+
+    <EditText
+        android:id="@+id/edtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/linzywdadd"
+        android:layout_margin="20dp"
+        android:hint="@string/instentQ" />
+
+    <LinearLayout
+        android:id="@+id/linaddpicture"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/edtQuestion"
+        android:layout_margin="20dp"
+        android:background="#eee"
+        android:orientation="vertical" >
+<ImageView 
+    android:id="@+id/ivcamera"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    
+    />
+        
+    </LinearLayout>
+    
+    
+
+    <Button
+        android:id="@+id/qux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linaddpicture"
+        android:layout_margin="50dp"
+        android:layout_marginTop="40dp"
+        android:text="取消"
+        android:textSize="20sp"
+        android:textColor="#888" />
+
+</RelativeLayout>

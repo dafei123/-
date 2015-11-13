@@ -1,0 +1,17 @@
+<段文超ip地址更改>
+Yang_fanqieActivity.java  
+shenghuoFrament.java
+studyFrament.java
+yuleFrament.java
+GlobalContants.java
+FaX_FuBuLunTanActivity.java
+FaX_LunTanLouZhuActivity.java
+com.gemptc.util.MyApplication.java
+com.zq.adapter包中的两个文件中的地址都需要改
+com.gemptc.activities包中的Zq_zywd_huifu.java
+<大辉哥IP地址更改>
+《fax——fabuluntanactivity中改》
+ip改为本机的ip
+Myapplication中的ip改为本机的ip
+在fujinfragement中95行userLatLng=new LatLng(MyAppalication.latitude,MyAppalication.longitude);
+在web端jieshou的servlet中改掉filename的路径为工程当前的路径

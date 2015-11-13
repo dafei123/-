@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gemptc.activities.Zq_bk_hulianActivity" >
+ <LinearLayout 
+         android:id="@+id/lintop"
+        style="@style/toplin"
+         >
+         <ImageView
+            android:id="@+id/ivqg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+         <TextView
+             android:id="@+id/tvqg"
+             android:text="励志文字"
+             style="@style/toptext"
+             />         
+     </LinearLayout>
+    <ScrollView 
+        android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@id/lintop"
+         android:background="#3441"
+        >
+        <LinearLayout 
+         android:id="@+id/linword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:background="@drawable/coner_bg"
+        >
+   
+        <com.zq.adapter.RoundCorner 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/l1"
+            />
+        <com.zq.adapter.RoundCorner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/l2"
+            />
+        <com.zq.adapter.RoundCorner 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/l3"
+            />
+        <com.zq.adapter.RoundCorner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/l4"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            />
+        </LinearLayout>
+     </ScrollView>
+
+
+</RelativeLayout>

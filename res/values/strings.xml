@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学霸养成记</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_yang_study">Yang_studyActivity</string>
+    <string name="title_activity_yang_jilu">Yang_jiluActivity</string>
+    <string name="title_activity_yang_study_set">Yang_study_setActivity</string>
+    <string name="title_activity_yang_study_jiandu">Yang_study_jianduActivity</string>
+    <string name="title_activity_jishi">JishiActivity</string>
+    <string name="title_activity_yang_fanqie">Yang_fanqieActivity</string>
+    <string name="title_activity_yng_ziyou">Yng_ziyouActivity</string>
+    <string name="title_activity_yang_finish">Yang_finishActivity</string>
+    <string name="title_activity_yang_fangqi">Yang_fangqiActivity</string>
+    <string name="title_activity_person_zi_liao">PersonZiLiaoActivity</string>
+    <string name="title_activity_wo__friendmsg">Wo_FriendmsgActivity</string>
+    <string name="title_activity_wo_ranking">Wo_rankingActivity</string>
+    <string name="faxian_fabuluntan">发表主题</string>
+    <string name="faxian_fujinderen">附近的人</string>
+    <string name="faxian_fabiao">发表</string>
+    <string name="faxian_soudashen">搜大神</string>
+    <string name="faxian_text">发现 </string>
+    <string name="faxian_luntan">学霸论坛</string>
+    <string name="faxian_louzhu">楼主</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_refresh_lasttime">最近更新</string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_doing_end_refresh">加载中</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="title_activity_fa_x">FaXActivity</string>
+    <string name="title_activity_lun_tan">LunTanActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_fa_x__lun_tan">FaX_LunTanActivity</string>
+    <string name="title_activity_fa_x__fu_jin">FaX_FuJinActivity</string>
+    <string name="title_activity_fa_xian">FaXianActivity</string>
+    <string name="title_activity_fa_x__fu_bu_lun_tan">FaX_FuBuLunTanActivity</string>
+    <string name="title_activity_fa_x__lun_tan_lou_zhu">FaX_LunTanLouZhuActivity</string>
+    <string name="title_activity_fa_x__lun_tan_pai_zhao">FaX_LunTanPaiZhaoActivity</string>
+     <string name="_reply">回复</string>
+     <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="xuexijieshao">
+        \n应用内置两种学习方式，请根据自身情况进行选择~
+        \n计时学习：按照设定的时长进行学习。
+        \n番茄学习：使用番茄工作法进行学习。
+        \n
+        \n操作详解：点击首页的计时学习，选择学习方式。
+    </string>
+    <string name="fanqiejieshao">
+        \n番茄工作法是简单易行的时间管理方法，
+        \n由Francesco Cirillo创立，旨在帮助人们高效率的利用时间。
+        \n
+        \n番茄工作法适合所有的同学，特别适用于患有拖延症，三心二意症，手机以来的同学。
+        \n用法可以选定设定好的学习时间，认真专注的学习25分钟，然后休息5分钟，
+        \n四个番茄钟后，休息20分钟，以此类推，当然要不要继续学习看你喜好。
+        \n温馨提示，放弃学习不会把学习记录上传到数据库哦
+</string>
+    
+    <!-- zhuanqu -->
+    <string name="_ring">闹钟</string>
+    <string name="_djs">倒计日</string>
+    <string name="_zq">专区</string>
+    <string name="_work">作业问答</string>
+    <string name="_bwl">备忘录</string>
+    <string name="_zl">资料</string>
+    <string name="_tk">题库</string>
+    <string name="_bk">百科</string>
+    <string name="_zywd">作业问答</string>
+    <string name="_addbwl">添加备忘录</string>
+    <string name="_addzywd">添加问题</string>
+    <string name="title_activity_zq__add_djs">_djs</string>
+    <string name="_adddjs">添加倒计时</string>
+    
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="title_activity_zq_zl_et4">Zq_zl_et4Activity</string>
+    
+    
+    <string name="word1">animal    n    动物\nsheep n 绵羊\ncome on phr来吧,跟着来,赶快
+         \npurple   adj \u0026 n 紫色(的)\nsweater n 毛衣,厚运动衫
+         \ndark adj 深(浓)色的,黑暗的\nglove n 手套\nmidnight n 午夜
+         \nbreak n (课间)休息,中断\nTokyo n 东京\ndoll n 玩具娃娃
+         \nelse adv \u0026 adj 别(的),其他(的)\nterm n 学期
+         \ndraw v 画;绘制\nleg n 腿\nsock n 短袜\nbroken adj 弄坏了的</string>
+    <string name="word2">goodness n 善良;美德\nmend v 修补;修理\nrobot n 机器人
+         \nbody n 身体\nbroke v (动词break的过去时)折断;打破
+         \nround adj 球形的 ;圆的\nporridge n 粥;稀饭
+         \ndumpling n 饺子\nfruit n 水果\nhamburger n 汉堡包
+         \nnoodle n 面条\nouch interj (突然感到病痛时发出的声音) 啊呀
+         \nyo-yo n 溜溜球 (一种玩具)</string>
+    <string name="word3">throw v 投,掷\nskate v 滑冰,溜冰\nvolleyball n 排球
+         \npostal adj 邮政的\ncode n 密码,符号\nski v 滑雪
+         \ntable tennis n 乒乓球\nroller-skating n 滑旱冰
+         \nfan n (口语)(电影,运动等的)迷\nteam n 队,组
+         \ntalk photos phr. 照象\ntoy n 玩具;玩物
+         \nlake n 湖 \ndictionary n 字典;词典
+         \ngo on doing sth phr. 继续做(某事)</string>
+    <string name="word4">fall behind phr. 落在...后面,输给别人
+         \nwell done phr. 做得好\ncongratulation n (常用复数)祝贺,庆贺
+         \nnot as/so...as conj 与...不一样\nloudspeaker n 扬声器,扩音器
+         \nresult n 结果\nheadmaster n 校长\ntake turns phr. 轮流
+         \ndo one\u0027s best phr. 尽最大努力,尽力\nspeed n 迅速,速度
+         \nthought n 思考,思想,想法</string>
+    <string name="word5">best-seller n 畅销货(书)
+         \nWashington n 华盛顿\nunusual adj 不寻常的,非凡的
+         \nin the end phr. 最后\nwork out phr. 算出,制定出
+         \nBASIC n (电脑)初学者通用符号指令码
+         \nmicrocomputer n 微型计算机\nMicrosoft n 微软公司
+         \nimprove v 提高,改善\ndisease n 疾病
+         \nmillion n 百万,百万元\ndecide v 决定,决心
+         \nbillion n 十亿\nalmost adv 几乎,差不多</string>
+    <string name="sentence1">  With my own ears I clearly heard the heart beat of the nuclear bomb.</string>
+    <string name="sentence2">  我亲耳清楚地听到原子弹的心脏的跳动。</string>
+    <string name="sentence3">  Next year the bearded bear will bear a dear baby in the rear.</string>
+    <string name="sentence4">  明年，长胡子的熊将在后方产一头可爱的小崽。</string>
+    <string name="sentence5">  Early I searched through the earth for earthenware so as to research in earthquake.</string>
+    <string name="sentence6">  早先我在泥土中搜寻陶器以研究地震。</string>
+    <string name="sentence7">  I learn that learned earnest men earn much by learning.</string>
+    <string name="sentence8">  我得知有学问而认真的人靠学问挣很多钱。</string>
+    <string name="sentence9">  She swears to wear the pearls that appear to be pears. </string>
+    <string name="sentence10">  她发誓要戴那些看起来像梨子的珍珠。</string>
+    <string name="sentence11">  I nearly fear to tear the tearful girl test paper. </string>
+    <string name="sentence12">  我几乎害怕撕那个泪流满面的女孩的试卷。</string>
+    <string name="sentence13">  The bold folk fold up the gold and hold it in hand. </string>
+    <string name="sentence14">  大胆的人们将黄金折叠起来拿在手里。</string>
+    <string name="sentence15">  The customers are accustomed to the disgusting custom. </string>
+    <string name="sentence16">  顾客们习惯了令人讨厌的风俗。</string>
+    <string name="sentence17">  The dust in the industrial zone frustrated the industrious man. </string>
+    <string name="sentence18">  工业区里的灰尘使勤勉的人灰心。</string>
+    <string name="sentence19">  The just budget judge just justifies the adjustment of justice. </string>
+    <string name="sentence20">  公正的预算法官只不过为司法调整辩护而已。</string>
+    <string name="sentence21">  I used to abuse the unusual usage, but now I\u0027m not used to doing so.</string>
+    <string name="sentence22">  我过去常滥用这个不寻常的用法,但我现在不习惯这样做。</string>
+    <string name="sentence23">  The lace placed in the palace is replaced first, and displaced later. </string>
+    <string name="sentence24">  放在皇宫的带子先被替换，后来被转移。</string>
+    <string name="sentence25">  I paced in the peaceful spacecraft. </string>
+    <string name="sentence26">  我在宁静的宇宙飞船里踱步。</string>
+    <string name="sentence27">  Sir, your bird stirred my girlfriend\u0027s birthday party. </string>
+    <string name="sentence28">  先生，你的鸟搅了我女友的生日聚会。</string>
+    <string name="sentence29">  The waterproof material is suitable for the aerial used near the waterfall.</string>
+    <string name="sentence30">  这种耐水材料适合用在瀑布附近的天线。</string>
+    <string name="sentence31">  The scout with shoulder-straps shouted on the outermost route as a routine.</string>
+    <string name="sentence32">  戴肩章的侦察员照例在最外围的路线上叫喊。</string>
+    <string name="sentence33">  The reproached coach unloaded the loaves to the approachable roadside. </string>
+    <string name="sentence34">  遭到责备的教练把面包卸到可接近的路旁。</string>
+    <string name="sentence35">  The news about the broadened breadth is broadcast abroad. </string>
+    <string name="sentence36">  宽度加宽的消息被广播到国外。</string>
+    
+   
+
+    <string-array name="english4">
+        <item>单词</item>
+        <item>句子</item>
+    </string-array>
+
+    <string name="_yx">游戏</string>
+    <string name="_wzq">五子棋</string>
+    <string name="title_activity_zq__zywd">Zq_ZywdActivity</string>
+    <string name="title_activity_zq__bwl">Zq_BwlActivity</string>
+    <string name="title_activity_zq__ring">Zq_RingActivity</string>
+    <string name="title_activity_zq__djs">Zq_DjsActivity</string>
+    <string name="title_activity_zq__zl">Zq_ZlActivity</string>
+    <string name="title_activity_zq__bk">Zq_BkActivity</string>
+    <string name="title_activity_zq__yx">Zq_YxActivity</string>
+    <string name="title_activity_zq_zl_et4word">Zq_zl_et4wordActivity</string>
+    <string name="title_activity_zq_zl_et4sentence">Zq_zl_et4sentenceActivity</string>
+    <string name="qinggan">珍惜眼前，不愿辜负</string>
+    <string name="qinggan1">其实吧，现实，真的不是想的这么美好当你</string>
+    <string name="qinggan2">掏心掏肺的对别人好却发现并不能换来真心</string>
+    <string name="qinggan3">当你努力做到最好却发现那只是安慰你永远</string>
+    <string name="qinggan4">满足不了所有人还不如珍惜眼前，不要辜负</string>
+    <string name="qianggan5">任何一个存在当你满心欢喜的说出心底那</string>
+    <string name="qinggan6">份感情却发现，时机真的真的很重要然而， </string>
+    <string name="qinggan7">晚了，什么都不同了喜欢就表白什么的这样</string>
+    <string name="qinggan8">的潇洒果然好难因为，你的时机不对早一点</string>
+    <string name="qinggan9">，就好了</string>
+    
+   
+    <string name="title_activity_zq_bk_qg">Zq_bk_qgActivity</string>
+    <string name="title_activity_zq_bk_yf">Zq_bk_yfActivity</string>
+    <string name="title_activity_zq__bwl_add">Zq_BwlAddActivity</string>
+    <string name="_timetype">月日</string>
+    <string name="timetype">年月日</string>
+    <string name="_content">内容</string>
+    <string name="_title">标题</string>
+    <string name="_save">保存</string>
+    <string name="_time">日期</string>
+    <string name="_mh">某月&amp;某日(请写入数字)</string>
+    <string name="month">月</string>
+    <string name="choose">选择</string>
+    <string name="day">请输入重要的节日(如父母生日)</string>
+    <string name="title_activity_zq__djs_add">Zq_DjsAddActivity</string>
+    <string name="cen">取消</string>
+    
+    
+    <string name="androidtest">android测试</string>
+    <string name="javatest">java测试</string>
+    <string name="submit">提交</string>
+    <string name="android_test">android测试题</string>
+    <string name="java_test">java测试题</string>
+    <string name="single_topic">一、单选题</string>
+    <string name="more_topic">二、多选题</string>
+    <string name="present_choice">当前</string>
+    <string name="right_wrong">对/错</string>
+    <string name="result">答案</string>
+    <string name="score">得分</string>
+    <string name="total_score">总分：</string>
+    <string name="android_test_result">android测试结果</string>
+    <string name="java_test_result">java测试结果</string>
+    <string name="show_result">答案</string>
+    <string name="one_again">重做</string>
+    <string name="topic_num1">1.</string>
+    <string name="topic_num2">2.</string>
+    <string name="topic_num3">3.</string>
+    <string name="topic_num">题号</string>
+    <string name="help_content">  选择你所认为正确答案 （每道题都必须要选）。单选题，每道题目20分，正确给20分，错误给0分。多选题，每道题目20分，正确给20分，有一个答案正确且没有出现正确答案以外的选项，则给10分，否则0分。做完题目墙按提交按钮提交答案。提交答案后可以按显示以显示正确答案，或者按重做再做一遍。</string>
+
+    <!-- android -->
+    <string name="android_rb1">1、在 Activity中，如何获取 service 对象？（）</string>
+    <string name="android_rb1_a">A. 可以通过直接实例化得到;</string>
+    <string name="android_rb1_b">B. 通过 startService();</string>
+    <string name="android_rb1_c">C. 通过 getService()获取;</string>
+    <string name="android_rb1_d">D. 可以通过绑定得;</string>
+    <string name="android_rb2">2、在使用 SQLiteOpenHelper这个类时，它的哪一个方法是用来实现版本升级之用的？（）</string>
+    <string name="android_rb2_a">A. onCreate();</string>
+    <string name="android_rb2_b">B. onCreade();</string>
+    <string name="android_rb2_c">C. onUpdate();</string>
+    <string name="android_rb2_d">D. onUpgrade();</string>
+    <string name="android_rb3">3、在多个应用中读取共享存储数据时， 需要用到哪个对象的 query 方法？（）</string>
+    <string name="android_rb3_a">A. ContentResolver;</string>
+    <string name="android_rb3_b">B. ContentProvider;</string>
+    <string name="android_rb3_c">C. Cursor;</string>
+    <string name="android_rb3_d">D. SQLiteHelper;</string>
+    <string name="android_rb4">1、关于广播的作用，正确的说法是（）</string>
+    <string name="android_rb4_a">A. 它是用接收系统发布的一些消息的;</string>
+    <string name="android_rb4_b">B. 它可以启动一个 Service;</string>
+    <string name="android_rb4_c">C. 它可以启动一个 Service;</string>
+    <string name="android_rb4_d">D. 它可以启动一个 Activity;</string>
+    <string name="android_rb5">2、Intent 传递数据时，下列的数据类型哪些可以被传递（）</string>
+    <string name="android_rb5_a">A. Serializable;</string>
+    <string name="android_rb5_b">B. charsequence;</string>
+    <string name="android_rb5_c">C. Parcelable;</string>
+    <string name="android_rb5_d">D. Bundle;</string>
+
+    <!-- java -->
+    <string name="java_rb1">1、下列哪种说法是正确的？</string>
+    <string name="java_rb1_a">A. 实例方法可直接调用本类的类方法;</string>
+    <string name="java_rb1_b">B. 实例方法可直接调用超类的实例方法;</string>
+    <string name="java_rb1_c">C. 实例方法可直接调用超类的类方法;</string>
+    <string name="java_rb1_d">D. 实例方法可直接调用其他类的实例方法;</string>
+    <string name="java_rb2">2、新建一个流对象，下面哪个选项的代码是错误的？</string>
+    <string name="java_rb2_a">A. new BufferedWriter(new FileWriter("a.txt"));</string>
+    <string name="java_rb2_b">B. new GZIPOutputStream(new FileOutputStream("a.zip"));</string>
+    <string name="java_rb2_c">C. new BufferedReader(new FileInputStream("a.dat"));</string>
+    <string name="java_rb2_d">D. new ObjectInputStream(new FileInputStream("a.dat"));</string>
+    <string name="java_rb3">3、Java的集合框架中重要的接口java.util.Collection定义了许多方法，选项中哪个方法不是 Collection 接口所定义的？</string>
+    <string name="java_rb3_a">A. int size();</string>
+    <string name="java_rb3_b">B. compareTo(Object obj)；</string>
+    <string name="java_rb3_c">C. boolean containsAll(Collection c);</string>
+    <string name="java_rb3_d">D. boolean remove(Object obj);</string>
+    <string name="java_rb4">1、下列说法错误的有（）</string>
+    <string name="java_rb4_a">A. Java面向对象语言容许单独的过程与函数存在;</string>
+    <string name="java_rb4_b">B. Java面向对象语言容许单独的方法存在;</string>
+    <string name="java_rb4_c">C. Java语言中的方法属于类中的成员（member）;</string>
+    <string name="java_rb4_d">D. Java语言中的方法必定隶属于某一类（对象），调用方法与过程或函数相同;</string>
+    <string name="java_rb5">2、下面哪个选项演示了继承关系（）</string>
+    <string name="java_rb5_a">A. ①、public class Species{ }，②、public class Animal{private Species species;};</string>
+    <string name="java_rb5_b">B. ①、class Father { }，②、class son extends Father { };</string>
+    <string name="java_rb5_c">C. ①、abstract class Colorable { }，②、class Shape extends Colorable { };</string>
+    <string name="java_rb5_d">D. ①、interface Person { }，②、public class Employee implements Person{ };</string>
+    <string name="back">返回</string>
+    <string name="title_activity_zq__tk_main">Zq_Tk_main</string>
+    <string name="title_activity_zq__tk__result">Zq_Tk_ResultActivity</string>
+    <string name="cs">测试</string>
+    <string name="djr">请输入节日&amp;纪念日标题</string>
+    <string name="startdjs">开始倒计时</string>
+    <string name="tx">设置提醒</string>
+    <string name="adddjs">添加倒计时</string>
+     <string name="reply">回复</string>
+    <string name="question">问题</string>
+    <string name="answer">回答</string>
+    <string name="send">发送</string>
+    <string name="addQuestion">添加问题</string>
+    <string name="instentp">请插入照片</string>
+    <string name="instentQ">请输入您的问题</string>
+    <string name="title_activity_zq_zywd_add">Zq_zywd_add</string>
+    <string name="title_activity_zq_zywd_reply">Zq_zywd_replyActivity</string>
+    
+    
+    
+    <!-- wo模块 -->
+    <!-- 聊天 -->
+    <string name="chat_title_bar_chatperson">好友</string>
+    <string name="chat_title_bar_chattalk">全球</string>
+    <string name="title_activity_wo__dream">Wo_DreamActivity</string>
+    <string name="title_activity_wo__dream_edit">Wo_DreamEditActivity</string>
+    <string name="title_activity_wo__collect">Wo_CollectActivity</string>
+    <string name="title_activity_wo__set">Wo_SetActivity</string>
+    <string name="title_activity_wo__set__shuo_ming">Wo_Set_ShuoMingActivity</string>
+    <string name="wo_shuoming">学霸养成记是一款学习辅助软件。他有两种学习方式，请仔细阅读以下两种学习方式的说明~ \n 
+     1.全天监督，\n
+        按照设定的时段进行监督，提高自制力。让学习更有效率。\n\n\n
+
+    2.计时学习\n
+      设定时长让学习争分多秒。</string>
+    <string name="title_activity_wo__login">Wo_LoginActivity</string>
+
+    <dimen name="padding_small">8.0dip</dimen>
+    <dimen name="height_small">40.0dip</dimen>
+    <dimen name="common_text_size18">18.0sp</dimen>
+    <dimen name="padding_verySmall">4.0dip</dimen>
+
+    <string name="title_activity_wo__register">Wo_RegisterActivity</string>
+    <string name="activity_register_prompt">请检查手机号码是否正确，如果正确但长时间没有收到验证码短信，可能是因为短信运营商的网络不太给力，请点击下面的按钮拨打客服电话。</string>
+    <string name="title_activity_wo__xui_gai">Wo_XuiGaiActivity</string>
+    <string name="title_activity_friendperson">FriendpersonActivity</string>
+
+</resources>

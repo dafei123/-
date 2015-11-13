@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wo.module.Wo_CollectActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0099ff">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="收藏" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/zhuyuanzhang" />
+       
+    </RelativeLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:background="#00f222">
+
+       <TextView
+           android:id="@+id/wo_collecttalk_fragment"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="论坛"
+           android:layout_gravity="center"
+           android:gravity="center" />
+       <TextView
+           android:id="@+id/wo_collectquesion_fragment"    
+          android:layout_gravity="center"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="问题" />
+
+     <!--  <TextView
+           android:id="@+id/wo_collectmy_fragment"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="我的"
+            android:layout_gravity="center"
+           android:gravity="center" /> -->
+        
+   </LinearLayout>
+    <FrameLayout
+        android:id="@+id/wo_collectlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

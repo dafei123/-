@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 用户的头像 -->
+
+    <image.SmartImageView
+        android:id="@+id/fx_imageviewtx5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+      />
+    <!-- 用户的姓名 -->
+
+    <TextView
+        android:id="@+id/fx_username4"
+        style="@style/luntanitem"
+        android:layout_below="@id/lin3"
+        android:layout_toRightOf="@+id/fx_imageviewtx5"
+        android:textSize="12sp" 
+        android:textColor="#101010"
+       />
+    <!-- 楼层 -->
+
+    <TextView
+        android:id="@+id/fx_louceng"
+        style="@style/luntanitem"
+        android:layout_toRightOf="@+id/fx_imageviewtx5"
+        android:layout_marginTop="20dp"       
+        android:textSize="10sp"        
+       />
+
+    <!-- 当前的时间 -->
+
+    <TextView
+        android:id="@+id/fx_time5"
+        style="@style/ww"       
+        android:layout_toRightOf="@+id/fx_louceng"
+        android:layout_marginTop="20dp"
+        android:textColor="#666666"
+        android:singleLine="true"
+        android:textSize="12sp"
+        />   
+    
+    <!-- 回复的内容 -->
+
+    <TextView
+        android:id="@+id/fx_huifucontent"
+        style="@style/ww"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/fx_time5"
+        android:gravity="center"
+        android:textColor="#555555"
+         android:layout_marginLeft="10dp"    
+        android:textSize="12sp" />
+    <!-- 回复图片 -->
+
+    <image.SmartImageView
+        android:id="@+id/fx_huifupic"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/fx_huifucontent"
+        android:layout_centerHorizontal="true"
+         />
+
+    <ListView
+        android:id="@+id/fx_luntan_huifu5"
+        style="@style/mw"
+        android:layout_below="@id/fx_huifupic" />
+  <!-- 回复的图标-->
+    <ImageView
+        android:id="@+id/fx_luntanhuifu4"
+        style="@style/luntanz_hf"
+        android:layout_alignTop="@+id/fx_louceng"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/fx_huifupic"
+        android:src="@drawable/huifutubiao" />
+    <!--回复的数量  -->
+
+    <TextView
+        android:id="@+id/fx_huifunum"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/fx_luntanhuifu4"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/fx_luntanhuifu4"
+       />
+
+</RelativeLayout>

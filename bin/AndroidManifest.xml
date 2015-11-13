@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gemptc.activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+   
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+     <!-- 地理位置 -->   
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />    
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+   
+    <application
+        android:name="beanutil.MyAppalication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+           <!--百度地图API的秘钥  -->
+           <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+         <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="FQ0ML96lw4SvrDIUtDQZYTqn" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name="GuideActivity" />
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".Yang_studyActivity"
+            android:label="@string/title_activity_yang_study" >
+        </activity>
+        <activity
+            android:name=".Yang_jiluActivity"
+            android:label="@string/title_activity_yang_jilu" >
+        </activity>
+        <activity
+            android:name=".Yang_study_setActivity"
+            android:label="@string/title_activity_yang_study_set" >
+        </activity>
+        <activity
+            android:name=".Yang_study_jianduActivity"
+            android:label="@string/title_activity_yang_study_jiandu" >
+        </activity>
+        <activity
+            android:name=".Yang_jishiActivity"
+            android:label="@string/title_activity_jishi" >
+        </activity>
+        <activity
+            android:name=".Yang_fanqieActivity"
+            android:label="@string/title_activity_yang_fanqie" >
+        </activity>
+        <activity
+            android:name=".Yang_ziyouActivity"
+            android:label="@string/title_activity_yng_ziyou" >
+        </activity>
+        <activity
+            android:name=".Yang_finishActivity"
+            android:label="@string/title_activity_yang_finish" >
+        </activity>       
+        <activity
+            android:name=".Yang_fangqiActivity"
+            android:label="@string/title_activity_yang_fangqi" >
+        </activity>
+
+        <!-- zhuanqu -->
+        <activity android:name=".Zq_ZywdActivity" >
+        </activity>
+        <activity android:name=".Zq_BwlActivity" >
+        </activity>
+        <activity android:name=".Zq_RingActivity" >
+        </activity>
+        <activity android:name=".Zq_DjsActivity" >
+        </activity>
+        <activity android:name=".Zq_ZlActivity" >
+        </activity>
+        <activity android:name=".Zq_BkActivity" >
+        </activity>
+        <activity android:name=".Zq_YxActivity" >
+        </activity>
+        <activity android:name=".Zq_zl_et4Activity" >
+        </activity>
+        <activity android:name=".Zq_zl_et6Activity" >
+        </activity>
+        <activity android:name=".Zq_zl_et4wordActivity" >
+        </activity>
+        <activity android:name=".Zq_zl_et4sentenceActivity" >
+        </activity>
+        <activity android:name=".Zq_bk_hulianActivity" >
+        </activity>
+        <activity android:name=".Zq_bk_shougActivity" >
+        </activity>
+        <activity android:name=".Zq_BwlAddActivity" >
+        </activity>
+        <activity android:name=".Zq_DjsAddActivity" >
+        </activity>
+        <activity
+            android:name=".Zq_Tk_main"
+            android:label="@string/title_activity_zq__tk_main" >
+        </activity>
+        <activity
+            android:name=".Zq_Tk_ResultActivity"
+            android:label="@string/title_activity_zq__tk__result" >
+        </activity>
+        <activity
+            android:name="com.wo.module.PersonZiLiaoActivity"
+            android:label="@string/title_activity_person_zi_liao" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_FriendmsgActivity"
+            android:label="@string/title_activity_wo__friendmsg" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_rankingActivity"
+            android:label="@string/title_activity_wo_ranking" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_DreamActivity"
+            android:label="@string/title_activity_wo__dream" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_DreamEditActivity"
+            android:label="@string/title_activity_wo__dream_edit" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_CollectActivity"
+            android:label="@string/title_activity_wo__collect" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_SetActivity"
+            android:label="@string/title_activity_wo__set" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_Set_FanKuiActivity"
+            android:label="@string/title_activity_wo__set__shuo_ming" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_Set_ShuoMingActivity"
+            android:label="@string/title_activity_wo__set__shuo_ming" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_LoginActivity"
+            android:label="@string/title_activity_wo__login" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_RegisterActivity"
+            android:label="@string/title_activity_wo__register" >
+        </activity>
+        <activity
+            android:name="com.wo.module.Wo_XuiGaiActivity"
+            android:label="@string/title_activity_wo__xui_gai" >
+        </activity>
+        <activity
+            android:name="com.wo.module.FriendpersonActivity"
+            android:label="@string/title_activity_friendperson" >
+        </activity>
+          <activity
+            android:name="com.gemptc.activities.FaX_FuBuLunTanActivity"
+            android:label="@string/title_activity_fa_x__fu_bu_lun_tan" >
+        </activity>
+        <activity
+            android:name="com.gemptc.activities.FaX_LunTanLouZhuActivity"
+            android:label="@string/title_activity_fa_x__lun_tan_lou_zhu" >
+        </activity>
+         <activity android:name=".Zq_zywd_huifu" >
+        </activity>
+        <activity
+            android:name=".Zq_zywd_add"
+            android:label="@string/title_activity_zq_zywd_add" >
+        </activity>
+        <activity
+            android:name=".Zq_zywd_replyActivity"
+            android:label="@string/title_activity_zq_zywd_reply" >
+        </activity>
+        <activity
+            android:name=".FanqiejieshaoActivity"
+            />
+<activity
+            android:name=".XuexifangshijieshaoActivity"
+            />"
+    </application>
+
+</manifest>

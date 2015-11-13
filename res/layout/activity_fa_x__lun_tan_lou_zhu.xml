@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8" >
+
+    <RelativeLayout
+        android:id="@+id/lin3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff0099ff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/faxian3"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:text="@string/faxian_luntan"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/fx_huabi"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/fx_xie1" />
+
+        <ImageView
+            android:id="@+id/fanhui3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu_back" />
+
+   </RelativeLayout>
+    <util.ReboundScrollView
+        android:id="@+id/scrollview"
+        style="@style/mw"
+        android:layout_above="@+id/weibu"
+        android:layout_below="@+id/lin3" >
+
+        <LinearLayout
+            style="@style/ww"
+            android:orientation="vertical" >
+
+            <RelativeLayout style="@style/ww" >
+
+                <!-- 用户的头像 -->
+
+                <image.SmartImageView
+                    android:id="@+id/fx_imageviewtx2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitXY" />
+                <!-- 用户的姓名 -->
+
+                <TextView
+                    android:id="@+id/fx_username2"
+                    style="@style/luntanitem"
+                    android:layout_alignTop="@+id/fx_imageviewtx2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/fx_imageviewtx2"
+                    android:text="姓名"
+                    android:textColor="#cc9966"
+                    android:textSize="15sp" />
+                <!-- 当前的时间 -->
+                <!-- 点赞的数量 -->
+
+                <TextView
+                    android:id="@+id/fx_luntan_zannum2"
+                    style="@style/luntanz_hf"
+                    android:layout_alignTop="@+id/fx_dianzan2"
+                    android:layout_toRightOf="@+id/fx_dianzan2" />
+                <!-- 回复的数量 -->
+
+                <TextView
+                    android:id="@+id/fx_luntan_huifu2"
+                    style="@style/luntanz_hf"
+                    android:layout_alignTop="@+id/fx_dianzan2"
+                    android:layout_toRightOf="@+id/fx_dianzan2" />
+                <!-- 帖子内容 -->
+                <!-- 帖子图片 -->
+
+                <image.SmartImageView
+                    android:id="@+id/fx_tiezitupian2"
+                    android:layout_width="260dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/fx_tiezineirong3"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/fx_shuoshuo3"
+                    style="@style/mw"
+                    android:layout_alignLeft="@+id/fx_username2"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/fx_imageviewtx2"
+                    android:textColor="#666666"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/fx_time2"
+                    style="@style/ww"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/fx_username2"
+                    android:singleLine="true"
+                    android:text="123"
+                   android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/fx_tiezineirong3"
+                    style="@style/ww"
+                    android:layout_alignLeft="@+id/fx_shuoshuo3"
+                    android:layout_below="@+id/fx_dianzan2"
+                    android:text="内容"
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+               
+
+                <ImageView
+                    android:id="@+id/fx_shoucang"
+                    style="@style/luntanz_hf"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/fx_username2"
+                    android:src="@drawable/fx_shoucang2" />
+
+                 <ImageView
+                     android:id="@+id/fx_dianzan2"
+                     style="@style/luntanz_hf"
+                     android:layout_below="@+id/fx_shuoshuo3"
+                     android:layout_toLeftOf="@+id/fx_time2"
+                     android:src="@drawable/fx_zanqian" />
+
+                 <ImageView
+                     android:id="@+id/fx_luntanhuifu2"
+                     style="@style/luntanz_hf"
+                     android:layout_above="@+id/fx_tiezineirong3"
+                     android:layout_alignParentRight="true"
+                     android:src="@drawable/huifutubiao" />
+
+            </RelativeLayout>
+            <util.NoScrollListView
+                android:id="@+id/fx_luntan_firstrepiy"
+                style="@style/mw" />
+        </LinearLayout>
+    </util.ReboundScrollView>
+
+    <LinearLayout
+        android:id="@+id/weibu"
+        style="@style/mw"
+        android:layout_alignParentBottom="true"
+        android:background="@color/qianhui"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/fx_huifuneirong1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/yuanjiaobai"
+            android:hint="我也说一句"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/fx_tijiaoneirong"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/yuanjiaobai"
+            android:text="发送"
+            android:textColor="#A9A9A9" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    android:background="#E4FFDE"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/wo_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/a"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/ww"
+            android:layout_below="@+id/wo_imagebt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="用户昵称"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/zhixian"
+            style="@style/mw"
+            android:layout_below="@+id/textView1"
+            android:src="@drawable/zhixian1" />
+
+        <image.SmartImageView
+            android:id="@+id/wo_imagebt1"
+            style="@style/ww"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/zhuyuanzhang" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/zhixian"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/shuxian" />
+
+        <ToggleButton 
+            android:gravity="center"
+            android:id="@+id/quxiaoguanzhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginRight="33dp"
+            android:layout_toLeftOf="@+id/wo_imagebt1"
+            android:background="@null"
+            android:textSize="16sp"
+            android:textOn="删除好友"
+            android:textOff="添加好友"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+     <ListView
+        android:id="@+id/wo_guanzhugeren"
+        style="@style/mm" 
+       >
+    </ListView>
+
+</LinearLayout>

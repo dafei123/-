@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    tools:context=".MainActivity" >
+	<!-- 顶部菜单栏和中间的主要模块是动态嵌入的碎片 -->
+    <!-- <FrameLayout 
+        android:id="@+id/topbar"
+        style="@style/mw"></FrameLayout> -->
+    <!-- 包含底部导航栏 ,使用include标签只能重写id和layout_*开头的属性，
+    如果重写了任何一个layout_*属性，则必须重写宽高属性-->
+	<include
+	    android:id="@+id/bottom" 
+	    layout="@layout/bottom"
+	    />
+	
+    <FrameLayout 
+        android:id="@+id/container" 
+        android:layout_above="@id/bottom"
+        style="@style/mm">
+    </FrameLayout>
+    
+</RelativeLayout>

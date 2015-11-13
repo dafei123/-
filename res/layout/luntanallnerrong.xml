@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/as"
+            style="@style/mm"
+            android:layout_margin="5dp" >
+            
+            <image.SmartImageView
+                android:id="@+id/fx_imageviewtx"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:id="@+id/fx_username"
+                style="@style/ww"
+                android:layout_alignTop="@+id/fx_imageviewtx"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/fx_imageviewtx"
+                android:text="123"
+                android:textColor="#cc9966"
+                android:textSize="15sp" />
+
+            
+
+            <TextView
+                android:id="@+id/fx_time"
+                style="@style/ww"
+                android:layout_alignBaseline="@+id/fx_username"
+                android:layout_alignBottom="@+id/fx_username"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:text="123"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/fx_tiezineirong2"
+                style="@style/ww"
+                android:layout_alignLeft="@+id/fx_shuoshuo"
+                android:layout_below="@+id/fx_shuoshuo"
+                android:maxLines="3"
+                android:text="321"
+                android:textColor="#666666"
+                android:textSize="16sp" />
+
+            <image.SmartImageView
+                android:id="@+id/fx_tiezitupian"
+                android:layout_width="260dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_alignLeft="@+id/fx_tiezineirong2"
+                android:layout_below="@+id/fx_tiezineirong2" />
+
+            <TextView
+                android:id="@+id/fx_shuoshuo"
+                style="@style/mw"
+                android:layout_alignLeft="@+id/fx_username"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/fx_username"
+                android:layout_marginTop="5dp"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/fx_listview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

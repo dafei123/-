@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0099ff" >
+
+        <RadioGroup
+            android:id="@+id/wo_ranking_title"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/chat_title_rg_bg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/wo_ranking_button"
+                style="@style/index_chat_title_rb"
+                android:background="@drawable/chat_title_rb_bg_left"
+                android:checked="true"
+                android:text="@string/chat_title_bar_chatperson" />
+
+            <RadioButton
+                android:id="@+id/wo_ranking_button1"
+                style="@style/index_chat_title_rb"
+                android:background="@drawable/chat_title_rb_bg_right"
+                android:text="@string/chat_title_bar_chattalk" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/zhuyuanzhang" />
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/wo_ranking_laylout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:orientation="vertical" >
+
+    </FrameLayout>
+
+</RelativeLayout>

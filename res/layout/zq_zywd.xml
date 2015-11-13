@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+ <LinearLayout 
+        android:id="@+id/linzywd"
+        style="@style/toplin"
+         >
+
+        <ImageView
+            android:id="@+id/ivzywd1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+         <TextView
+             android:id="@+id/zywd"
+             android:text="@string/_zywd"
+             style="@style/toptext"
+             />
+         </LinearLayout>
+          <ImageView
+        android:id="@+id/ivAddzywd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/add" />
+
+     <me.maxwin.view.XListView
+         android:id="@+id/lvlistqu"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/linzywd" />
+           
+</RelativeLayout>

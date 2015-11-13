@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gemptc.activities.Yang_jishiActivity" >
+<LinearLayout
+        android:id="@+id/yang_study_fqset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#ff0099ff"
+        >
+        <TextView 
+            android:id="@+id/yang_fanqiexuexi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="计时学习"
+            android:textSize="20sp"
+            android:textColor="#ffffffff"
+            android:background="#ff0099ff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        
+
+    </LinearLayout>
+    <TextView
+            android:id="@+id/fanqiegiveup"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#ff0099ff"
+            android:text="放弃"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    <TextView 
+        android:id="@+id/yang_fqTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:textSize="50sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

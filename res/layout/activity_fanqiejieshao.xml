@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gemptc.activities.FanqiejieshaoActivity" >
+
+    <TextView
+        android:id="@+id/fanqiereirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       
+        android:layout_below="@+id/textView1"
+        android:background="#f8f8f8"
+        android:text="@string/fanqiejieshao"
+        android:textColor="#666666"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/yang_fanqie_jsset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0099ff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/yang_fanqiejieshao"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:background="#ff0099ff"
+            android:text="番茄工作法介绍"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/mw"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yang_fanqie_jsset"
+        android:gravity="center"
+        android:text="番茄工作法"
+        android:textColor="#cc9966"
+        android:textSize="20sp"
+        android:background="#f8f8f8" />
+
+</RelativeLayout>

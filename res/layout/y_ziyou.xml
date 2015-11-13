@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/yang_zytime"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/yang_zyminute"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:gravity="center"
+            android:inputType="number"
+            
+            />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="分"
+            android:textColor="#666666" />
+
+        <EditText
+            android:id="@+id/yang_zysencond"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:inputType="number" 
+           ></EditText>
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="秒"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yang_zyminute1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/yang_zytime"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/yang_zystart"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#f8f8f8"
+            android:text="开始"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

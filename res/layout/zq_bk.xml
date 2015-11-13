@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e0de" >
+
+   
+    <LinearLayout 
+        android:id="@+id/lintop"
+        style="@style/toplin"
+         >
+         <ImageView
+            android:id="@+id/ivbk"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+         <TextView
+             android:id="@+id/bk"
+             android:text="@string/_bk"
+             style="@style/toptext"
+             />
+         
+     </LinearLayout>
+     <LinearLayout 
+         android:id="@+id/linword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/lintop"
+        android:layout_margin="5dp"
+        android:background="@drawable/coner_bg"
+        >
+         <com.zq.adapter.RoundCorner
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/w1"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        />
+   <TextView 
+       android:id="@+id/tvname"
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:layout_marginLeft="10dp"
+       android:text="励志文字"
+       android:textSize="20sp"
+       android:layout_gravity="center_vertical"
+       android:gravity="center_vertical"
+       android:textColor="#000"
+       /> 
+    </LinearLayout>
+<LinearLayout 
+         android:id="@+id/linword1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/linword"
+        android:layout_margin="5dp"
+        android:background="@drawable/coner_bg"
+        >
+         <com.zq.adapter.RoundCorner
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/b8"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        />
+   <TextView 
+       android:id="@+id/tvshoug"
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:layout_marginLeft="10dp"
+       android:text="中国结"
+       android:textSize="20sp"
+       android:layout_gravity="center_vertical"
+       android:gravity="center_vertical"
+       android:textColor="#000"
+       /> 
+    </LinearLayout>
+</RelativeLayout>

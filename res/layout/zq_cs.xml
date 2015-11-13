@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gemptc.activities.Zq_YxActivity" >
+
+     <LinearLayout 
+        android:id="@+id/lindjs"
+        style="@style/toplin"
+         >
+
+        <ImageView
+            android:id="@+id/ivdjs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+         <TextView
+             android:id="@+id/djs"
+             android:text="@string/_tk"
+             style="@style/toptext"
+             />
+     </LinearLayout>
+
+</RelativeLayout>

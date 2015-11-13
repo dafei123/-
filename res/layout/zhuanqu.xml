@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhyman="http://schemas.android.com/apk/res/com.gemptc.activities"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+     >
+     <LinearLayout 
+         android:id="@+id/lintop"
+        style="@style/toplin"
+         >
+         <TextView
+             android:id="@+id/zq"
+             android:text="@string/_zq"
+             style="@style/toptext"
+             />         
+     </LinearLayout>
+    
+<!-- 四个碎片 
+作业问答  备忘录 
+-->
+  <LinearLayout
+        android:id="@+id/lincheck"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tag_bg"
+        android:layout_below="@id/lintop"
+        android:orientation="horizontal" >
+
+        <com.gemptc.activities.Zq_DrawText
+            android:id="@+id/id_zywd"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhyman:zcolor="#ff45c01a"
+            zhyman:zicon="@drawable/zywd"
+            zhyman:ztext="@string/_work"
+            zhyman:ztext_size="12sp" />
+
+        <com.gemptc.activities.Zq_DrawText
+            android:id="@+id/id_bwl"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhyman:zcolor="#ff45c01a"
+            zhyman:zicon="@drawable/bwl"
+            zhyman:ztext="@string/_bwl"
+            zhyman:ztext_size="12sp" />
+
+      
+    </LinearLayout>
+    <!-- 资料 -->
+    <LinearLayout 
+        android:id="@+id/linzl"
+        android:layout_below="@id/lincheck"
+        android:background="@drawable/tag_bg"
+        style="@style/zqlin"
+        >
+        <com.zq.adapter.RoundCorner
+            android:id="@+id/imagezl"
+            android:src="@drawable/zl"            
+            style="@style/zqiv"
+            />
+        <TextView 
+            android:id="@+id/tvzl"
+            android:text="@string/_zl"
+            style="@style/zqtv"
+            />   
+            </LinearLayout>
+   <!--  百科 -->
+    <LinearLayout 
+        android:id="@+id/linbk"
+        android:layout_below="@id/linzl"
+        android:background="@drawable/tag_bg"
+        style="@style/zqlin"
+        >
+        <com.zq.adapter.RoundCorner
+            android:id="@+id/imagebk"
+            android:src="@drawable/bk"
+             style="@style/zqiv"
+            />
+        <TextView 
+            android:id="@+id/tvbk"
+            android:text="@string/_bk"
+            
+            style="@style/zqtv"
+            />  
+    </LinearLayout>
+   
+     <LinearLayout 
+        android:id="@+id/lintk"
+        android:layout_below="@id/linbk"
+        android:background="@drawable/tag_bg"
+        style="@style/zqlin"
+        >
+        <com.zq.adapter.RoundCorner
+            android:id="@+id/imagetk"
+            android:src="@drawable/tk"
+             style="@style/zqiv"
+            />
+        <TextView 
+            android:id="@+id/tvtk"
+            android:text="@string/_tk"
+            
+            style="@style/zqtv"
+            />  
+    </LinearLayout>
+   
+    
+</RelativeLayout>

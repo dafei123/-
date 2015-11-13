@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gemptc.activities.Zq_zl_et4wordActivity" >
+
+   <LinearLayout
+        android:id="@+id/lintop"
+        style="@style/toplin" >
+
+        <ImageView
+            android:id="@+id/ivet4zldc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tvet4"
+            style="@style/toptext"
+            android:text="单词" />
+    </LinearLayout>
+    <ScrollView
+         android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lintop"
+                android:background="#e1e0de"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:background="@drawable/coner_bg"
+             android:layout_marginTop="5dp"
+            >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+             android:background="@drawable/coner_bg"
+            >
+             <TextView
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:scrollbars="vertical"
+            android:singleLine="false"
+            android:layout_margin="5dp"
+            android:background="#92d4e4"
+            android:text="@string/word1"
+            android:textSize="18sp"
+            />
+            
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+             android:background="@drawable/coner_bg"
+            >
+             <TextView
+            android:background="#92d4e4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:scrollbars="vertical"
+            android:singleLine="false"
+            android:layout_margin="5dp"
+            android:text="@string/word2"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+             android:background="@drawable/coner_bg"
+            >
+             <TextView
+            android:background="#92d4e4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:scrollbars="vertical"
+             android:layout_margin="5dp"
+            android:singleLine="false"
+            android:text="@string/word3"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+             android:background="@drawable/coner_bg"
+            >
+             <TextView
+            android:background="#92d4e4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:scrollbars="vertical"
+             android:layout_margin="5dp"
+            android:singleLine="false"
+            android:text="@string/word4"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+             android:background="@drawable/coner_bg"
+            >
+             <TextView
+            android:background="#92d4e4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:scrollbars="vertical"
+             android:layout_margin="5dp"
+            android:singleLine="false"
+            android:text="@string/word5"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+        
+        
+      </LinearLayout>
+ </ScrollView>
+</RelativeLayout>

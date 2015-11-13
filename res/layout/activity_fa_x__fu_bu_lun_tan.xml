@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8" >
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ff0099ff"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/fanhui2"
+            android:layout_width="40dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_back" />
+        <TextView
+            android:id="@+id/faxian_FaBuLunTan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/faxian_fabuluntan"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/Fx_fbtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lin1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/wenben"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shape_bg"
+            android:hint="说点什么吧..." >
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/radiobuttonzu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal"
+            android:layout_below="@id/wenben"
+            android:gravity="center_horizontal" >
+
+            <RadioButton
+                android:id="@+id/fx_xuexi"
+                android:text="学习" 
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/fx_shenghuo"
+                android:text="生活" />
+
+            <RadioButton
+                android:id="@+id/fx_yule"
+                android:text="娱乐" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/nerrong"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/radiobuttonzu"
+            android:background="@drawable/shape_bg"
+            android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/fx_showimageview"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_below="@id/nerrong" />
+
+        <ImageView
+            android:id="@+id/fx_imageview"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_below="@id/nerrong"
+            android:layout_toRightOf="@id/fx_showimageview"
+            android:src="@drawable/fx_luntantianjiapic" />
+
+        <TextView
+            android:id="@+id/addimageview"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/fx_imageview"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/fx_imageview"
+            android:gravity="center"
+            android:text="添加图片"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/faxian_fabiao"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/Fx_fbtext"
+        android:layout_alignRight="@+id/Fx_fbtext"
+        android:text="@string/faxian_fabiao" 
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+</RelativeLayout>

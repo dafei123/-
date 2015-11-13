@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mw"
+    android:orientation="horizontal" 
+    android:background="#fff8f8f8"
+    android:layout_alignParentBottom="true">
+    
+    <ImageView 
+        android:id="@+id/yangxueba"
+        style="@style/bottom"/>
+    <ImageView 
+        android:id="@+id/zhuanqu"
+        style="@style/bottom"/>
+    <ImageView 
+        android:id="@+id/faxian"
+        style="@style/bottom"/>
+    <ImageView 
+        android:id="@+id/wo"
+        style="@style/bottom"/>
+    
+
+</LinearLayout>

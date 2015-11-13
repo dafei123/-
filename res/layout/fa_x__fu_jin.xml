@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8" >
+  <com.gemptc.refresh_utils.PullToRefreshLayout 
+    android:id="@+id/ren_fresh"
+    style="@style/mm">
+   <com.gemptc.refresh_utils.PullableListView 
+        android:id="@+id/listview2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"       
+        android:divider="#cccccc"
+        android:dividerHeight="3dp" >
+    </com.gemptc.refresh_utils.PullableListView>
+</com.gemptc.refresh_utils.PullToRefreshLayout>
+</RelativeLayout>

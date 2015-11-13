@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.gemptc.activities.Yang_studyActivity" >
+
+   <LinearLayout
+       android:id="@+id/xxjd_title1"
+       android:layout_width="fill_parent"
+       android:layout_height="40dp" 
+       android:background="#ff0099ff"
+       android:orientation="horizontal" >
+       <ImageView 
+           android:id="@+id/yang_fanhui"
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_gravity="left"
+          android:src="@drawable/ic_menu_back"
+          />
+       
+      <Spinner
+          android:id="@+id/yang_studyspinner"
+          android:layout_width="245dp"
+          android:layout_height="wrap_content"
+          android:gravity="center" 
+          android:background="#ff0099ff"/>
+      
+    
+     <ImageView
+       android:id="@+id/yang_shezi"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:layout_weight="1"
+       android:layout_gravity="right"
+       android:src="@drawable/ic_menu_setting" />
+       </LinearLayout>
+       <FrameLayout 
+           android:id="@+id/yang_jishiqi"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@id/xxjd_title1"
+           ></FrameLayout>
+</RelativeLayout>

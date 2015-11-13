@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" 
+    >
+    
+    <LinearLayout 
+        android:id="@+id/linbwl"
+        style="@style/toplin"
+         >
+
+        <ImageView
+            android:id="@+id/ivbwl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+         <TextView
+             android:id="@+id/bwl"
+             android:text="@string/_bwl"
+             style="@style/toptext"
+             />
+  
+     </LinearLayout>
+     <ImageView
+        android:id="@+id/ivAdd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/add" />
+     <LinearLayout 
+         android:id="@+id/linlist"
+          android:layout_below="@id/linbwl"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+         android:layout_above="@+id/btnbwladd">
+         <!-- <EditText 
+             android:id="@+id/edTime"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+           android:hint="@string/_mh"
+             /> -->
+
+    <ListView
+        android:id="@+id/lvlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+   
+</LinearLayout>
+   
+    <Button
+        android:id="@+id/btnbwladd"
+        android:layout_width="fill_parent"
+       android:layout_height="50dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_margin="10dp"
+       android:layout_marginBottom="129dp"
+       android:background="#0099ff"
+       android:text="@string/_addbwl"
+       android:textColor="#fff"
+       android:textSize="20sp"
+      
+        />
+
+</RelativeLayout>

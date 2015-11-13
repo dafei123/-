@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <image.SmartImageView
+            android:id="@+id/tiezi_user_pic"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/tiezi_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tiezi_user_pic" />
+
+        <TextView
+            android:id="@+id/tiezi_reply_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tiezi_username"
+            android:layout_marginRight="5dp"
+            android:text="@string/_reply" />
+
+        <TextView
+            android:id="@+id/tiezi_louceng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/tiezi_user_pic"
+            android:layout_below="@id/tiezi_username"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#cccccc"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tiezi_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tiezi_louceng"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tiezi_louceng" />
+
+        <TextView
+            android:id="@+id/tiezi_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/tiezi_reply_text"       
+           android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <util.NoScrollListView
+        android:id="@+id/tiezi_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+    </util.NoScrollListView>
+
+</LinearLayout>

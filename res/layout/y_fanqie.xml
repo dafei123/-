@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/yang_fanqietime"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/yang_fqminute"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:gravity="center"
+            android:inputType="number"
+           android:editable="false"
+            />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="分"
+            android:textColor="#CC9966" />
+
+        <EditText
+            android:id="@+id/yang_fqsencond"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:inputType="number" 
+            android:editable="false"
+           ></EditText>
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="50dp"
+            android:text="秒"
+            android:textColor="#CC9966" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yang_fanqietime1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/yang_fanqietime"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/yang_fqstart"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/hjl"
+            android:text="开始"
+            android:textColor="#CC9966"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

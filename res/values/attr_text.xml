@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="zicon" format="reference"></attr>
+    <attr name="zcolor" format="color"></attr>
+    <attr name="ztext" format="string"></attr>
+    <attr name="ztext_size" format="dimension"></attr>
+
+    <declare-styleable name="Zq_DrawText">
+        <attr name="zicon"></attr>
+        <attr name="zcolor"></attr>
+        <attr name="ztext"></attr>
+        <attr name="ztext_size"></attr>
+    </declare-styleable>
+
+</resources>

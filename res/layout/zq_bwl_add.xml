@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linbwl"
+        style="@style/toplin" >
+
+        <ImageView
+            android:id="@+id/ivbwl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+        <TextView
+            android:id="@+id/bwl"
+            style="@style/toptext"
+            android:text="@string/_bwl" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_title"
+        android:gravity="center"
+        android:textSize="20sp"
+         android:layout_weight="0.3"
+        />
+
+    <EditText
+        android:id="@+id/edbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/_title"
+         android:layout_weight="0.1"
+          android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_time" 
+         android:gravity="center"
+        android:textSize="20sp"
+         android:layout_weight="0.3"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        >
+        <EditText
+        android:id="@+id/edtime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+         android:layout_weight="2"
+          android:textSize="20sp" />   
+          <Button 
+              android:id="@+id/btnedtime"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/choose"
+              android:textSize="20sp"
+              />     
+    </LinearLayout>
+
+
+     <TextView
+        android:id="@+id/textcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_content" 
+         android:gravity="center"
+        android:textSize="20sp"
+         android:layout_weight="0.3"
+        />
+
+    <EditText
+        android:id="@+id/edcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/_content"
+         android:textSize="20sp" />
+    
+   <Button
+        android:id="@+id/btnsave"
+         android:layout_width="fill_parent"
+       android:layout_height="50dp"
+       android:layout_margin="10dp"
+       android:background="#0099ff"
+       android:text="@string/_save"
+       android:textColor="#fff"
+       android:textSize="20sp"
+        android:onClick="mySave"
+        />
+
+</LinearLayout>

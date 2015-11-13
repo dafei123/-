@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#f8f8f8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <image.SmartImageView
+            android:id="@+id/fx_friendlist"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/friendAdaptername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小超超biubiubiu"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fx_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/friendAdaptername"
+                android:layout_marginLeft="10dp"
+                android:text="10"
+                android:textSize="13sp" 
+                android:textStyle="bold"
+               android:textColor="#696969"/>
+
+            <TextView
+                android:id="@+id/fx_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/friendAdaptername"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/friendAdaptername"
+                android:gravity="center"
+                android:text="男"
+                android:textColor="#696969"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fx_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fx_sex"
+                android:layout_alignBottom="@+id/fx_sex"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/fx_sex"
+                android:text="20"
+                android:textColor="#696969"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#f8f8f8" />
+
+</LinearLayout>

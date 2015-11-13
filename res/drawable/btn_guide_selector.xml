@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/gamecenter_dialog_button_youku" android:state_pressed="true"/>
+    <item android:drawable="@drawable/gamecenter_dialog_button_on_youku"/>
+
+</selector>

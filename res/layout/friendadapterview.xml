@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#f8f8f8"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    <image.SmartImageView
+        android:id="@+id/friendlist"
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/zhuyuanzhang" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/friendAdaptername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="小超超biubiubiu" />
+
+        <TextView
+            android:id="@+id/friendsign"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#988272"
+            android:text="小超超你又调皮了，拉回家宰了" />
+
+    </LinearLayout>
+    </LinearLayout>
+<View android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#f8f8f8"/>
+</LinearLayout>
